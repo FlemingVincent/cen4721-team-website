@@ -37,6 +37,15 @@ This is our team's website for CEN4721 - Human Computer Interaction. This websit
    ```
 5. Approve and merge changes into main on github
 
+6. Change your branch back to main
+   ```sh
+   git checkout main
+   ```
+7. Pull to update main locally
+   ```sh
+   git pull
+   ```
+
 # Team Members
 
 Zander Bournand, Vincent Fleming, Shravya Iruvanti, Yiru Mu, and Mitchell Thanath
