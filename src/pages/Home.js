@@ -21,6 +21,13 @@ function Home() {
           interests="Full Stack Mobile and Web Development"
           bio="Zander is currently a Junior at The University of Florida, studying Computer Science. Most of his schedule consists of school work and personal development of full stack projects to improve his skills as a software engineer in general. Following graduation, Zander plans on working as a Software Engineer within a tech company to start off his proffesional life. "
         />
+          <BioCard
+              firstName="yiru"
+              lastName="mu"
+              major="biomedical engineering"
+              interests="Full Stack Web Development"
+              bio=" "
+          />
       </div>
     </div>
   );
