@@ -14,15 +14,20 @@ function Navbar() {
         <Link to="ProjectOne" className="hover:text-[#0021A5]">
           Project One
         </Link>
-        <Link to="ProjectTwo" className="hover:text-[#0021A5]">
-          Project Two
-        </Link>
-        <Link to="ProjectThree" className="hover:text-[#0021A5]">
-          Project Three
-        </Link>
       </div>
     </div>
   );
 }
 
 export default Navbar;
+
+/*
+<Link to="ProjectTwo" className="hover:text-[#0021A5]">
+          Project Two
+        </Link>
+        <Link to="ProjectThree" className="hover:text-[#0021A5]">
+          Project Three
+        </Link>
+
+ save for future use
+ */
