@@ -2,13 +2,20 @@ import React from "react";
 
 import BioCard from "../components/BioCard.js";
 import "../components/Component.css";
+import Footer from "../components/Footer.js"
 
 function Home() {
   return (
     <div className="px-4 py-8">
         <h2 className="text-4xl my-8 flex justify-center">About Us</h2>
+        <div className="flex pl-12 pr-12 text-lg justify-center">
+            Hello! We are a team of enthusiastic software engineers that strive to develop better and
+            easier to use applications.
+            This is our team's website for CEN4721 - Human Computer Interaction.
+            This website will display the projects that we have worked on throughout Summer,2022.
+        </div>
       <h1 className="text-4xl my-8 flex justify-center">Meet the Team</h1>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="pl-16 grid grid-cols-3 gap-y-6  gap-x-4 ">
 
           <article className="card_Vincent">
               <div className="card_content">
@@ -19,7 +26,7 @@ function Home() {
               </div>
           </article>
 
-          <article  className="card">
+          <article  className="card_Zander">
               <div className="card_content">
                   <h3 className="card_title">Zander Bournand</h3>
                   <span className="card_subtitle">Computer Science</span>
@@ -38,9 +45,29 @@ function Home() {
               </div>
           </article>
 
-      </div>
+          <article  className="card_S">
+              <div className="card_content">
+                  <h3 className="card_title">Shravya Iruvanti </h3>
+                  <span className="card_subtitle">Computer Engineering</span>
+                  <span className="card_subtitle">UX/UI, Frontend Development and Product Development</span>
+                  <p className="card_description">Shravya is a senior at the University of Florida. She has taken and learned several skills from her classes which include software development and electrical engineering (circuit logic, digital logic, microprocessors applications). She plans on working as a Software developer in UX/UI or product design within a tech/ start-up company after graduation.</p>
+              </div>
+          </article>
+
+
+          <article  className="card">
+              <div className="card_content">
+                  <h3 className="card_title">Your name</h3>
+                  <span className="card_subtitle">Your major</span>
+                  <span className="card_subtitle">your interest</span>
+                  <p className="card_description">bio</p>
+              </div>
+          </article>
 
       </div>
+        <Footer/>
+      </div>
+
 
 
   );
