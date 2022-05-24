@@ -57,10 +57,10 @@ function Home() {
 
           <article  className="card">
               <div className="card_content">
-                  <h3 className="card_title">Your name</h3>
-                  <span className="card_subtitle">Your major</span>
-                  <span className="card_subtitle">your interest</span>
-                  <p className="card_description">bio</p>
+                  <h3 className="card_title">Mitchell Thanath</h3>
+                  <span className="card_subtitle">Computer Science</span>
+                  <span className="card_subtitle">Backend development, UX design </span>
+                  <p className="card_description">Mitchell is a rising junior majoring in computer science. After graduation he plans on pursuing a career in software engineering. He is interested in exploring topics such as AI and machine learning. Mitchell has experience working on projects involving backend development.</p>
               </div>
           </article>
 

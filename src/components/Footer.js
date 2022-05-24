@@ -2,6 +2,7 @@ import React from "react"
 import "./footer.css"
 import {useRef, useState} from "react"
 import emailjs from 'emailjs-com'
+import Gator from "../images/download.png"
 
 const Footer =() =>{
     const formRef = useRef()
@@ -27,6 +28,7 @@ const Footer =() =>{
                     <h1 className="c-title">
                         Want to discuss more about our projects?
                     </h1>
+                    <img src={Gator} className="pl-21 h-72"/>
                 </div>
 
                 <div className="c-right">
