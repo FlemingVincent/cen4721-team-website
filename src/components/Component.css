@@ -1,6 +1,6 @@
 .card_Vincent {
     position: relative;
-    width: 300px;
+    width: 80%;
     height: 300px;
     color: #808080;
     border-radius:20px;
@@ -10,7 +10,7 @@
 
 .card_Yiru {
     position: relative;
-    width: 300px;
+    width: 80%;
     height: 300px;
     color: #808080;
     border-radius:20px;
@@ -20,7 +20,7 @@
 
 .card_Zander {
     position: relative;
-    width: 300px;
+    width: 80%;
     height: 300px;
     color: #808080;
     border-radius:20px;
@@ -30,7 +30,7 @@
 
 .card_S {
     position: relative;
-    width: 300px;
+    width: 80%;
     height: 300px;
     color: #808080;
     border-radius:20px;
@@ -41,7 +41,7 @@
 
 .card {
     position: relative;
-    width: 300px;
+    width: 80%;
     height: 300px;
     color: #a18a96;
     border-radius:20px;

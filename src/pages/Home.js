@@ -15,7 +15,7 @@ function Home() {
             This website will display the projects that we have worked on throughout Summer,2022.
         </div>
       <h1 className="text-4xl my-8 flex justify-center">Meet the Team</h1>
-      <div className="pl-16 grid grid-cols-3 gap-y-6  gap-x-4 ">
+      <div className="pl-16 flex flex-row-reverse grid grid-cols-3 gap-y-6 gap-x-4 ">
 
           <article className="card_Vincent">
               <div className="card_content">
