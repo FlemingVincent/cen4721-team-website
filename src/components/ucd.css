@@ -1,12 +1,13 @@
 .explore {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 500px;
     color: #a18a96;
     background-size: cover;
     border-radius: 20px;
     overflow: hidden;
     padding-right:90px;
+
 
 
 }
@@ -52,7 +53,7 @@
 
 }
 .explore:hover .explore_content{
-    transform: translateX(0);
+    transform: translateY(0);
 }
 .explore:hover .explore_description {
     opacity: 1;

@@ -28,7 +28,7 @@ const Footer =() =>{
                     <h1 className="c-title">
                         Want to discuss more about our projects?
                     </h1>
-                    <img src={Gator} className="pl-21 h-72"/>
+                    <img src={Gator} className=" w-60 h-72"/>
                 </div>
 
                 <div className="c-right">

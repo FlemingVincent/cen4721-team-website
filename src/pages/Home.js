@@ -1,6 +1,4 @@
 import React from "react";
-
-import BioCard from "../components/BioCard.js";
 import "../components/Component.css";
 import Footer from "../components/Footer.js"
 
