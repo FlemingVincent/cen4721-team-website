@@ -8,6 +8,7 @@
     overflow: hidden;
     padding-right:90px;
 
+
 }
 
 .explore_content {
@@ -48,6 +49,7 @@
     font-size: 14px;
     opacity: 0;
     transition: opacity 0.5s;
+
 }
 .explore:hover .explore_content{
     transform: translateX(0);
