@@ -1,12 +1,13 @@
 import React from "react";
+import Background from "../components/Background.js"
+import UCD from "../components/UCD"
 
 function ProjectOne() {
   return (
       <section>
-      <h1>Gator Carpool or Name of the project </h1>
-      <div>Background Information</div>
-      <div>Problem</div>
-        <div>Development process</div>
+          <Background/>
+          <UCD/>
+
         <div>Solution</div>
         <div>responsibility distribution</div>
       </section>
