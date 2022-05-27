@@ -1,7 +1,7 @@
 import "./ucd.css"
 import React from "react";
 import needs from "../images/needs.png"
-import needsG from "../images/needs:grouped.png"
+import needsG from "../images/needs_grouped.png"
 import solution from "../images/solutions.png"
 
 const UCD= () =>{
