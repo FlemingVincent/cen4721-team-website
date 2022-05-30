@@ -7,10 +7,10 @@ import Z from "../images/pfp.png";
 import S from "../images/headshot.png";
 import M from "../images/M.png";
 import V from "../images/VF.jpeg";
-import home from "../images/home.png"
-import search from "../images/search.png"
-import profile from "../images/profile.png"
-import messages from "../images/messages.png"
+import home from "../images/home.png";
+import search from "../images/search.png";
+import profile from "../images/profile.png";
+import messages from "../images/messages.png";
 
 function ProjectOne() {
   return (
@@ -44,7 +44,7 @@ function ProjectOne() {
           </h1>
           <div className="flex flex-row justify-center items-center">
             <div className="flex-1 pr-16">
-              <img className="" src={home}/>
+              <img className="" src={home} alt="home" />
             </div>
             <div className="flex-1">
               <p className="text-lg leading-8">
@@ -52,10 +52,10 @@ function ProjectOne() {
                 2. Driver Mode: Allow driver to create rides <br />
                 Rider Mode: Allow riders to request and manage rides <br />
                 3. Show upcoming drives/rides <br />
-                Driver Mode: Allow drivers to notify, message riders and cancel the
-                drive <br />
-                Rider Mode: Allow riders to message drivers and/or cancel the ride{" "}
-                <br />
+                Driver Mode: Allow drivers to notify, message riders and cancel
+                the drive <br />
+                Rider Mode: Allow riders to message drivers and/or cancel the
+                ride <br />
                 4. Show past drives <br />
                 5. Show rider/driver request near user <br />
                 6. Navigation bar <br />
@@ -68,7 +68,7 @@ function ProjectOne() {
           </h1>
           <div className="flex flex-row justify-center items-center">
             <div className="flex-1 pr-16">
-              <img className="" src={search}/>
+              <img className="" src={search} alt="search" />
             </div>
             <div className="flex-1">
               <p className="text-lg leading-9">
@@ -84,7 +84,7 @@ function ProjectOne() {
           </h1>
           <div className="flex flex-row justify-center items-center">
             <div className="flex-1 pr-16">
-              <img className="" src={messages}/>
+              <img className="" src={messages} alt="messages" />
             </div>
             <div className="flex-1">
               <p className="text-lg leading-9">
@@ -100,7 +100,7 @@ function ProjectOne() {
           </h1>
           <div className="flex flex-row justify-center items-center">
             <div className="flex-1 pr-16">
-              <img className="" src={profile}/>
+              <img className="" src={profile} alt="profile" />
             </div>
             <div className="flex-1">
               <p className="text-lg leading-9">
@@ -124,7 +124,9 @@ function ProjectOne() {
             src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FmHyBlPItF9fgZa9fT5ABgp%2FCEN4721---Project-1%3Fpage-id%3D145%253A100%26node-id%3D182%253A4908%26viewport%3D571%252C370%252C0.11%26scaling%3Dscale-down%26starting-point-node-id%3D182%253A4944"
             allowfullscreen
           ></iframe>
-          <h1 className="flex justify-center font-bold text-2xl">Driver Flow</h1>
+          <h1 className="flex justify-center font-bold text-2xl">
+            Driver Flow
+          </h1>
           <iframe
             title="Driver Flow"
             width="800"
@@ -135,7 +137,7 @@ function ProjectOne() {
         </div>
       </div>
 
-      <div className="pl-10 pr-10 flex flex-row grid grid-cols-5">
+      <div className="pl-10 pr-10 flex-row grid grid-cols-5">
         <People name="Yiru Mu" res="Prototype Design, Website Design" img={Y} />
         <People
           name="Zander Bournand"

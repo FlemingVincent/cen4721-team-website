@@ -34,7 +34,7 @@ const Footer = () => {
       <div className="c-wrapper">
         <div className="c-left">
           <h1 className="c-title">Want to discuss more about our projects?</h1>
-          <img src={Gator} className=" w-60 h-72" />
+          <img src={Gator} className=" w-60 h-72" alt="gator" />
         </div>
 
         <div className="c-right">
