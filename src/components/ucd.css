@@ -1,10 +1,13 @@
+
+
+
 .explore {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 100%;
     color: #a18a96;
     background-size: cover;
-    border-radius: 20px;
+
     overflow: hidden;
     padding-right:90px;
 
@@ -46,13 +49,29 @@
 }
 .explore_description {
     font-size: 14px;
-    opacity: 0;
-    transition: opacity 0.5s;
+    /* opacity: 0;
+    transition: opacity 0.5s; */
+
 }
 .explore:hover .explore_content{
-    transform: translateX(0);
+    transform: translateY(0);
 }
 .explore:hover .explore_description {
     opacity: 1;
     trasition-delay: .25s;
 }
+.each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  
