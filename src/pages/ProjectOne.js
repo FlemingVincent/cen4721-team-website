@@ -31,7 +31,8 @@ function ProjectOne() {
             for both the rider and driver flows:
           </p>
         </div>
-        <div className="flex-row">
+        <div>
+          <h1 className="flex justify-center">Rider Flow</h1>
           <iframe
             title="Rider Flow"
             width="800"
@@ -39,6 +40,7 @@ function ProjectOne() {
             src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FmHyBlPItF9fgZa9fT5ABgp%2FCEN4721---Project-1%3Fpage-id%3D145%253A100%26node-id%3D182%253A4908%26viewport%3D571%252C370%252C0.11%26scaling%3Dscale-down%26starting-point-node-id%3D182%253A4944"
             allowfullscreen
           ></iframe>
+          <h1 className="flex justify-center">Driver Flow</h1>
           <iframe
             title="Driver Flow"
             width="800"
@@ -46,6 +48,22 @@ function ProjectOne() {
             src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FmHyBlPItF9fgZa9fT5ABgp%2FCEN4721---Project-1%3Fpage-id%3D0%253A1%26node-id%3D27%253A10%26viewport%3D149%252C263%252C0.33%26scaling%3Dscale-down%26starting-point-node-id%3D27%253A8"
             allowfullscreen
           ></iframe>
+          <h2 className="flex justify-center text-md font-semibold">
+            Some key features that we have included in our app:
+          </h2>
+          <p className="italic">
+            1. Let user choose to be in driver mode or rider mode <br />
+            2. Driver Mode: Allow driver to create rides <br />
+            Rider Mode: Allow riders to request and manage rides <br />
+            3. Show upcoming drives/rides <br />
+            Driver Mode: Allow drivers to notify, message riders and cancel the
+            drive <br />
+            Rider Mode: Allow riders to message drivers and/or cancel the ride{" "}
+            <br />
+            4. Show past drives <br />
+            5. Show rider/driver request near user <br />
+            6. Navigation Bar <br />
+          </p>
         </div>
       </div>
 
