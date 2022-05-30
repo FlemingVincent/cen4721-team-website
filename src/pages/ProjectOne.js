@@ -27,11 +27,58 @@ function ProjectOne() {
             today by some of the top companies in the world. We ultimately
             decided on using Figma to develop this high fidelity prototype, as
             Figma has the proper tools to allow us to develop quickly and
-            collaborate as a team. Below we have provided functional prototypes
-            for both the rider and driver flows:
+            collaborate as a team.
           </p>
         </div>
         <div>
+          <h1 className="flex justify-center text-md font-semibold mb-4">
+            Some key features that we have included in our app:
+          </h1>
+          <h1 className="flex justify-center text-md font-semibold">
+            Home Screen:
+          </h1>
+          <p className="italic">
+            1. Let user choose to be in driver mode or rider mode <br />
+            2. Driver Mode: Allow driver to create rides <br />
+            Rider Mode: Allow riders to request and manage rides <br />
+            3. Show upcoming drives/rides <br />
+            Driver Mode: Allow drivers to notify, message riders and cancel the
+            drive <br />
+            Rider Mode: Allow riders to message drivers and/or cancel the ride{" "}
+            <br />
+            4. Show past drives <br />
+            5. Show rider/driver request near user <br />
+            6. Navigation bar <br />
+          </p>
+          <h1 className="flex justify-center text-md font-semibold mb-4">
+            Search Screen:
+          </h1>
+          <p className="italic">
+            1. Enter search information <br />
+            2. Search button <br />
+            3. Navigation bar <br />
+          </p>
+          <h1 className="flex justify-center text-md font-semibold mb-4">
+            Messages Screen:
+          </h1>
+          <p className="italic">
+            1. Search for messages <br />
+            2. List of messages <br />
+          </p>
+          <h1 className="flex justify-center text-md font-semibold mb-4">
+            Profile Screen:
+          </h1>
+          <p className="italic">
+            1. Username <br />
+            2. Rating of user <br />
+            3. Description of user <br />
+            4. Navigation bar <br />
+          </p>
+        </div>
+        <div>
+          <h1 className="flex justify-center text-md font-semibold my-4">
+            Below we have attached two interactive figma prototypes:
+          </h1>
           <h1 className="flex justify-center">Rider Flow</h1>
           <iframe
             title="Rider Flow"
@@ -48,22 +95,6 @@ function ProjectOne() {
             src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FmHyBlPItF9fgZa9fT5ABgp%2FCEN4721---Project-1%3Fpage-id%3D0%253A1%26node-id%3D27%253A10%26viewport%3D149%252C263%252C0.33%26scaling%3Dscale-down%26starting-point-node-id%3D27%253A8"
             allowfullscreen
           ></iframe>
-          <h2 className="flex justify-center text-md font-semibold">
-            Some key features that we have included in our app:
-          </h2>
-          <p className="italic">
-            1. Let user choose to be in driver mode or rider mode <br />
-            2. Driver Mode: Allow driver to create rides <br />
-            Rider Mode: Allow riders to request and manage rides <br />
-            3. Show upcoming drives/rides <br />
-            Driver Mode: Allow drivers to notify, message riders and cancel the
-            drive <br />
-            Rider Mode: Allow riders to message drivers and/or cancel the ride{" "}
-            <br />
-            4. Show past drives <br />
-            5. Show rider/driver request near user <br />
-            6. Navigation Bar <br />
-          </p>
         </div>
       </div>
 
