@@ -75,7 +75,7 @@ const UCD = () => {
           </div>
 
           <h4 className="font-bold text-3xl pt-4 underline text-center">
-            Peronas & Scenarios
+            Personas & Scenarios
           </h4>
           <div className="pt-8">
             <Slide easing="ease" {...properties}>

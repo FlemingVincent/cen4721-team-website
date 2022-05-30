@@ -43,8 +43,8 @@ function ProjectOne() {
             Home Screen:
           </h1>
           <div className="flex flex-row justify-center items-center">
-            <div className="flex-1 pr-16">
-              <img className="" src={home} alt="home" />
+            <div className="flex-1 pr-48">
+              <img className="float-right" src={home} alt="home" />
             </div>
             <div className="flex-1">
               <p className="text-lg leading-8">
@@ -67,8 +67,8 @@ function ProjectOne() {
             Search Screen:
           </h1>
           <div className="flex flex-row justify-center items-center">
-            <div className="flex-1 pr-16">
-              <img className="" src={search} alt="search" />
+            <div className="flex-1 pr-48">
+              <img className="float-right" src={search} alt="search" />
             </div>
             <div className="flex-1">
               <p className="text-lg leading-9">
@@ -83,8 +83,8 @@ function ProjectOne() {
             Messages Screen:
           </h1>
           <div className="flex flex-row justify-center items-center">
-            <div className="flex-1 pr-16">
-              <img className="" src={messages} alt="messages" />
+            <div className="flex-1 pr-48">
+              <img className="float-right" src={messages} alt="messages" />
             </div>
             <div className="flex-1">
               <p className="text-lg leading-9">
@@ -99,8 +99,8 @@ function ProjectOne() {
             Profile Screen:
           </h1>
           <div className="flex flex-row justify-center items-center">
-            <div className="flex-1 pr-16">
-              <img className="" src={profile} alt="profile" />
+            <div className="flex-1 pr-48">
+              <img className="float-right" src={profile} alt="profile" />
             </div>
             <div className="flex-1">
               <p className="text-lg leading-9">
