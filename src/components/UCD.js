@@ -14,8 +14,11 @@ import DoubleImages from "./DoubleImages";
 import features from "../images/feature_hierachy.png";
 import first_prototype from "../images/first_prototype.png";
 import final_prototype from "../images/final_prototype.png";
+import high_fidelity from "../images/high-fidelity.png"
 import julia from "../images/JULIA.png";
 import patrick from "../images/PATRICK.png";
+import julia_storyboard from "../images/storyboard_julia.png"
+import patrick_storyboard from "../images/storyboard_patrick.png"
 import { Slide } from "react-slideshow-image";
 import { BsFillArrowLeftCircleFill } from "react-icons/bs";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
@@ -79,7 +82,7 @@ const UCD = () => {
             </p>
           </div>
 
-          <h4 className="font-bold text-3xl underline text-center">
+          <h4 className="font-bold text-3xl pt-4 underline text-center">
             Peronas & Scenarios
           </h4>
           <div className="pt-8">
@@ -103,6 +106,28 @@ const UCD = () => {
               solution that is appropriate to various contexts.
             </p>
           </div>
+
+          <h4 className="font-bold text-3xl pt-4 underline text-center">
+            Storyboards
+          </h4>
+          <div className="">
+            <Slide easing="ease" {...properties}>
+              <div className="each-slide">
+                <div>
+                  <img src={julia_storyboard} className="h-1/2 w-auto" />
+                </div>
+              </div>
+              <div className="each-slide">
+                <div>
+                  <img src={patrick_storyboard} className="h-1/2 w-auto" />
+                </div>
+              </div>
+            </Slide>
+            <p className="text-center px-4 pb-8 text-lg font-semibold">
+              Furthermore, our team also create storyboards to match the different personas and scenarios, thus once more allowing us to understand how a user would actually use the solution at hand. This can also bring out a different perspective on the problem, thus enabling us to learn more about the various use cases before beginning the ideation and prototype phase.
+            </p>
+          </div>
+
         </div>
       </article>
 
@@ -162,6 +187,17 @@ const UCD = () => {
             </p>
             <img className="w-1/2 h-1/2 pl-4" src={final_prototype} />
           </div>
+
+          <h4 className="font-bold text-3xl underline text-center py-4">
+            High-Fidelity Prototype
+          </h4>
+          <div className="py-8 flex justify-center items-center">
+            <img className="w-1/2 h-1/2" src={high_fidelity} />
+            <p className="text-center pb-8 px-8 text-lg font-semibold py-8">
+              Finally, the team decided to go one step further, and create a high-fidelity design prototype in order to mimic what the final product might look like with real UI elements, and improved visual features. While we kept most of the ideas behind the low-fidelity design, this new step allowed us to continue to improve on our solution as we could fully interact with what could be a true working application.
+            </p>
+          </div>
+
         </div>
       </article>
 
