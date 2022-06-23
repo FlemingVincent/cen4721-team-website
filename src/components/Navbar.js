@@ -14,6 +14,9 @@ function Navbar() {
         <Link to="ProjectOne" className="hover:text-[#deb887]">
           Project One
         </Link>
+          <Link to="ProjectTwo" className="hover:text-[#deb887]">
+              Project Two
+          </Link>
       </div>
     </div>
   );
