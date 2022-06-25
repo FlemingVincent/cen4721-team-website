@@ -14,6 +14,10 @@ function Navbar() {
         <Link to="ProjectOne" className="hover:text-[#deb887]">
           Project One
         </Link>
+        <div></div>
+        <Link to="ProjectTwo" className="hover:text-[#0021A5]">
+          Project Two
+        </Link>
       </div>
     </div>
   );
@@ -22,12 +26,11 @@ function Navbar() {
 export default Navbar;
 
 /*
-<Link to="ProjectTwo" className="hover:text-[#0021A5]">
-          Project Two
-        </Link>
-        <Link to="ProjectThree" className="hover:text-[#0021A5]">
+// Save for Project 3
+<Link to="ProjectThree" className="hover:text-[#0021A5]">
           Project Three
         </Link>
+*/
 
- save for future use
- */
+
+ 

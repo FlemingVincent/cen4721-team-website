@@ -1,3 +1,4 @@
+import React from 'react'
 import "../components/people.css";
 
 const People = (props) => {
