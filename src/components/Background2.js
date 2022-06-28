@@ -1,11 +1,16 @@
 import React from "react";
 import "./background.css";
 import DTE from "../images/DTE.png";
+import DreamTeam from "../images/DreamTeam.webp";
 
 const Background = () => {
   return (
     <div className="h-screen flex items-center">
       <div className="relative flex-1 flex items-center justify-center h-full">
+        <div className="a-card bg" />
+        <div className="a-card">
+          <img src={DreamTeam} alt="" className="w-full h-full object-cover " />
+        </div>
       </div>
 
       <div className="relative flex-1 flex-col items-center justify-center h-full">
