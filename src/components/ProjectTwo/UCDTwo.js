@@ -2,13 +2,13 @@ import "../ucd.css";
 import React from "react";
 import solution from "../../images/solutions.png";
 import stages from "../../images/ev.png";
-import needsG from "../../images/needs_grouped.png";
-import needs from "../../images/needs.png";
-import needsV from "../../images/needs_voted.png";
+import userNeeds from "../../images/userNeeds.jpeg";
+import userNeedsGrouped from "../../images/userNeedsGrouped.jpeg";
+import userNeedsVoted from "../../images/userNeedsVoted.jpeg";
 import features from "../../images/feature_hierachy.png";
 import first_prototype from "../../images/first_prototype.png";
-import julia from "../../images/JULIA.png";
-import patrick from "../../images/PATRICK.png";
+import Tom from "../../images/Tom.jpeg";
+import Alyssa from "../../images/Alyssa.jpeg";
 import julia_storyboard from "../../images/storyboard_julia.png";
 import patrick_storyboard from "../../images/storyboard_patrick.png";
 import { Slide } from "react-slideshow-image";
@@ -46,22 +46,28 @@ const UCD = () => {
             <Slide easing="ease" {...properties}>
               <div className="each-slide">
                 <div>
-                  <img src={needs} className="h-full w-auto" alt="needs" />
+                  <img src={userNeeds} className="h-full w-auto" alt="needs" />
                 </div>
               </div>
               <div className="each-slide">
                 <div>
-                  <img src={needsG} className="h-full w-auto" alt="needsg" />
+                  <img src={userNeedsGrouped} className="h-full w-auto" alt="needsg" />
                 </div>
               </div>
               <div className="each-slide">
                 <div>
-                  <img src={needsV} className="h-full w-auto" alt="needsg" />
+                  <img src={userNeedsVoted} className="h-full w-auto" alt="needsg" />
                 </div>
               </div>
             </Slide>
             <p className="text-center p-4 text-lg font-semibold">
-              Chagne the pictures and add text here; see project 1 for example
+              To begin the design of our virtual environment, the group first decided to
+              brainstorm some of the fundamental user needs.
+              Following this, we then decided to group user needs into various
+              categories which were then voted for in terms on importance by
+              each member of the team. Ultimately, this allows the team to
+              determine what user needs have to be resolved first in order to
+              build an efficient solution to the problem at hand.
             </p>
           </div>
 
@@ -72,17 +78,21 @@ const UCD = () => {
             <Slide easing="ease" {...properties}>
               <div className="each-slide">
                 <div>
-                  <img src={julia} className="h-full w-auto" alt="julia" />
+                  <img src={Tom} className="h-full w-auto" alt="julia" />
                 </div>
               </div>
               <div className="each-slide">
                 <div>
-                  <img src={patrick} className="h-full w-auto" alt="patrick" />
+                  <img src={Alyssa} className="h-full w-auto" alt="patrick" />
                 </div>
               </div>
             </Slide>
             <p className="text-center p-4 text-lg font-semibold">
-              change the picture and add text here; see project 1 for example
+              In order to better understand the user needs, our team proceeded
+              with the creation of various personas and scenarios to describe
+              some of the potential users, and use cases for the virtual environment.
+              While fictional, these potentialy users help in building a
+              solution that is appropriate to various contexts.
             </p>
           </div>
 
@@ -111,7 +121,12 @@ const UCD = () => {
               </div>
             </Slide>
             <p className="text-center px-4 pb-8 text-lg font-semibold">
-             change pictures and add text; see project 1 for example
+              Following our exploration of the problem at hand, and the various
+              user needs that had to be addressed within a potential solution,
+              our team began a second-round a brainstorming. The following
+              served as a basis for the future features to be implemented as
+              many of the ideas suggested within brainstorming would end up
+              making it within the final prototype.
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../background.css";
 import DTE from "../../images/DTE.png";
-import Map from "../../images/map.png";
+import Org from "../../images/VR.jpg";
 
 const Background = () => {
   return (
@@ -9,18 +9,25 @@ const Background = () => {
       <div className="relative flex-1 flex items-center justify-center h-full">
         <div className="a-card bg" />
         <div className="a-card">
-          <img src={DTE} alt="" className="w-full h-full object-cover " />
+          <img src={Org} alt="" className="w-full h-full object-cover " />
         </div>
       </div>
 
       <div className="relative flex-1 flex-col items-center justify-center h-full">
-        <h1 className="a-title text-4xl"> Intro to DTE VR Project </h1>
+        <h1 className="a-title text-4xl"> Dream Team Engineering VR</h1>
         <p className="a-desc">
-          Add problem statement here
+          Dream Team Engineering is a group of engineering and non-engineering students alike that are dedicated to making novel
+          technologies to enhance the lives of the Children at UF Health Shands and other non-profit organizations. It consists of
+          different design teams work alongside physicians, nurses, child-life specialists, and PT/OT to create engineering devices
+          to impact the patient experience. The organization originated from the Dream Team Volunteering, a larger and more well-known
+          volunteering student organization that collaborates with Childrens Hospital at Shands. Even though Dream Team Engineering
+          has been growing rapidly over the past few years, it is still less well-known compared to its parent organization. The most
+          accurate and reliable source for students at UF to learn about DTE and join DTE is through friends that are already in the
+          organization.
         </p>
 
         <div className="solution">
-          <img src={Map} alt="" className="solution-img" />
+          <img src={DTE} alt="" className="solution-img" />
           <div className="text">
             <h4 className="title">Our Proposed Solution</h4>
             <p className="description">
