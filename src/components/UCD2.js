@@ -1,7 +1,6 @@
 import "./ucd.css";
 import React from "react";
 import brainstormIdeas from "../images/brainstormIdeas.JPG";
-import stages from "../images/ev.png";
 import userNeeds from "../images/userNeeds.JPG";
 import userNeedsGrouped from "../images/userNeedsGrouped.JPG";
 import userNeedsVoted from "../images/userNeedsVoted.JPG";
@@ -206,7 +205,7 @@ const UCD = () => {
         </div>
       </article>
 
-      
+
 
     </div>
   );
