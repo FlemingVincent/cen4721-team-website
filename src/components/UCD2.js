@@ -11,6 +11,7 @@ import MainDome1 from "../images/MainDome1.JPG";
 import MainDome2 from "../images/MainDome2.JPG";
 import software1 from "../images/software1.JPG";
 import software2 from "../images/software2.JPG";
+import storyboard from "../images/storyboard.JPG";
 import Tom from "../images/Tom.JPG";
 import Alyssa from "../images/Alyssa.JPG";
 import { Slide } from "react-slideshow-image";
@@ -103,6 +104,23 @@ const UCD = () => {
               solution that is appropriate to various contexts.
             </p>
           </div>
+
+          <h4 className="font-bold text-3xl pt-4 underline text-center">
+            StoryBoard
+          </h4>
+          <div className="flex flex-col justify-center items-center my-8 pt-8 pb-4">
+            <img
+              src={storyboard}
+              className="h-1/2 w-1/2 float-left"
+              alt="solution"
+            />
+            <p className="text-center pt-8 pb-4 px-8 text-lg font-semibold w-3/4">
+              Additionally, we also created a storyboard to better understand our user's experience from their perspective
+              and we used this information to better accommodate their needs in our final design. 
+            </p>
+          </div>
+
+
         </div>
       </article>
 
