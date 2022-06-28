@@ -6,12 +6,12 @@ import userNeeds from "../images/userNeeds.JPG";
 import userNeedsGrouped from "../images/userNeedsGrouped.JPG";
 import userNeedsVoted from "../images/userNeedsVoted.JPG";
 import Feature_hierarchy2 from "../images/Feature_hierarchy2.JPG";
-import IMG_0093 from "../images/IMG_0093.PNG";
-import IMG_0094 from "../images/IMG_0094.PNG";
-import MainRoomDome from "../images/MainRoomDome.jpg";
-import MainRoomDome2 from "../images/MainRoomDome2.jpg";
-import SOFTWAREENTRANCE from "../images/SOFTWAREENTRANCE.HEIC";
-import SOFTWAREOUTSIDESECTION from "../images/SOFTWAREOUTSIDESECTION.HEIC";
+import research1 from "../images/research1.JPG";
+import research2 from "../images/research2.JPG";
+import MainDome1 from "../images/MainDome1.JPG";
+import MainDome2 from "../images/MainDome2.JPG";
+import software1 from "../images/software1.JPG";
+import software2 from "../images/software2.JPG";
 import Tom from "../images/Tom.JPG";
 import Alyssa from "../images/Alyssa.JPG";
 import { Slide } from "react-slideshow-image";
@@ -38,6 +38,11 @@ const UCD = () => {
       <article className="explore">
         <div className="explore">
           <h3 className="explore_title">Exploration</h3>
+          <p className="text-center p-4 text-lg font-semibold">
+              The first thing our group did was gather all the necessary data about the organization so that we could
+              start the design process. We did this through a direct interview with the president of Dream Team Engineering. 
+              After getting all the essential information about the organization, we started our design process.
+          </p>
           <span className="explore_subtitle">
             Where Our User-Centered Design Begins
           </span>
@@ -45,6 +50,7 @@ const UCD = () => {
           <h4 className="font-bold text-3xl pt-8 underline text-center">
             Afinity Diagram
           </h4>
+          
           <div className="pt-8">
             <Slide easing="ease" {...properties}>
               <div className="each-slide">
@@ -64,7 +70,7 @@ const UCD = () => {
               </div>
             </Slide>
             <p className="text-center p-4 text-lg font-semibold">
-              To begin the design of our application, the group first decided to
+              To begin the design of our virtual environment, the group first decided to
               brainstorm some of the fundamental user needs.
               Following this, we then decided to group user needs into various
               categories which were then voted for in terms on importance by
@@ -135,49 +141,50 @@ const UCD = () => {
           <h4 className="font-bold text-3xl underline text-center py-4">
             Paper Prototype
           </h4>
-          <div className="flex flex-col justify-evenly items-center ">
-           
-        
-            <p className="text-center pb-8 px-8 text-lg font-semibold py-8">
-              One of the first prototypes to be constructed was the following
-              paper representation of the virtual environment. While this would not
+
+          <div className="pt-8">
+            <Slide easing="ease" {...properties}>
+              <div className="each-slide">
+                <div>
+                  <img src={MainDome1} className="h-full w-auto" alt="needs" />
+                </div>
+              </div>
+              <div className="each-slide">
+                <div>
+                  <img src={MainDome2} className="h-full w-auto" alt="needsg" />
+                </div>
+              </div>
+              <div className="each-slide">
+                <div>
+                  <img src={software1} className="h-full w-auto" alt="needsg" />
+                </div>
+              </div>
+              <div className="each-slide">
+                <div>
+                  <img src={software2} className="h-full w-auto" alt="needsg" />
+                </div>
+              </div>
+              <div className="each-slide">
+                <div>
+                  <img src={research1} className="h-full w-auto" alt="needsg" />
+                </div>
+              </div>
+              <div className="each-slide">
+                <div>
+                  <img src={research2} className="h-full w-auto" alt="needsg" />
+                </div>
+              </div>
+            </Slide>
+            <p className="text-center p-4 text-lg font-semibold">
+              Before we started the development of our virtual environment, we constructed
+              the following paper representations of the virtual environment. While this would not
               closely ressemble the final design, it allowed our team to get a
               better understanding of what features would be displayed where,
-              thus confirming our design before beginning a low-fidelity
-              representation of the virtual environment.
+              thus confirming our design before beginning the actual development
+              of the virtual environment.
             </p>
           </div>
 
-          <h4 className="font-bold text-3xl underline text-center">
-            Low-Fidelity Prototype
-          </h4>
-          <div className="py-8 flex justify-center items-center">
-            <p className="text-center pb-8 px-8 text-lg font-semibold py-8">
-              Once the team had a good idea of how to begin a low-fidelity
-              design, an interactie prototype began to be constructed using
-              balsamiq. Not only would this tool allow for the creation of a
-              sophisticated UI design, but it would also the team to make for an
-              interactive experience, thus closely ressembling what the actual
-              UI could look like in a working application.
-            </p>
-            
-          </div>
-
-          <h4 className="font-bold text-3xl underline text-center py-4">
-            High-Fidelity Prototype
-          </h4>
-          <div className="py-8 flex justify-center items-center">
-            
-            <p className="text-center pb-8 px-8 text-lg font-semibold py-8">
-              Finally, the team decided to go one step further, and create a
-              high-fidelity design prototype in order to mimic what the final
-              product might look like with real UI elements, and improved visual
-              features. While we kept most of the ideas behind the low-fidelity
-              design, this new step allowed us to continue to improve on our
-              solution as we could fully interact with what could be a true
-              working application.
-            </p>
-          </div>
         </div>
       </article>
 
@@ -191,15 +198,16 @@ const UCD = () => {
               During our refinement stage, we test the usages of our prototypes
               and identify any potential problems and room for improvements
               through user evaluation and observation. Once we have identified
-              any issues and areas where we can improve, we go back to the stage
-              of generation to create new prototypes accordingly. As shown in
-              the prototype line above, we have created different levels of
-              prototypes ranging from very low fidelity prototype to higher
-              fidelity protoptypes to our final solution.
+              any issues and areas where we can improve, we go back and make the improvements
+              accordingly. We repeat this process until we fix all the problems and are
+              satisfied with the final result. 
             </p>
           </div>
         </div>
       </article>
+
+      
+
     </div>
   );
 };
